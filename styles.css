@@ -1,0 +1,17 @@
+html{
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #181929;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    color: aliceblue;
+}
