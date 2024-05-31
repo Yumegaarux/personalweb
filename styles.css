@@ -7,11 +7,25 @@ body{
     
 }
 
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 20px; 
+}
+
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 li{
-    display: inline;
+    margin-left: 20px;
     color: aliceblue;
+}
+
+#logo{
+    color: rgb(146, 204, 255);
 }
