@@ -1,18 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     font-family: Helvetica;
 }
 
-body{
-    background-color: #181929;
+#container{ 
+    min-height: 100vh;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.8)),url(media/image2.png);
     
 }
 
-#container{
+nav{
+    background-color: #181929;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 0px 20px; 
+    padding: 20px 20px; 
 }
+
 
 ul{
     list-style-type: none;
@@ -22,10 +35,48 @@ ul{
 }
 
 li{
-    margin-left: 20px;
+    margin-left: 15px;
     color: aliceblue;
+}
+
+a{
+    padding: 24.5px 10px 24.5px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    background-color: aqua;
+    color: black;
 }
 
 #logo{
     color: rgb(146, 204, 255);
+}
+
+.toptxt{
+    color: rgb(0, 255, 255);
+}
+
+.middletxt{
+    font-size: 5em;
+    color: aliceblue;
+}
+
+.btmtxt{
+    font-size: 13.5px;
+    width: 25%;
+    color: white;
+}
+
+#introbody{
+    margin-left: 2.5em;
+}
+
+/* ------- Main ------ */
+
+#main{
+    background-color: #181929;
+    max-width: 100%;
+    min-height: 40em;
 }
