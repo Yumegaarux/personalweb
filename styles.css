@@ -97,3 +97,15 @@ a:hover{
     max-width: 100%;
     min-height: 40em;
 }
+
+#mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 2%;
+}
+
+#mainH1{
+    color: rgb(218, 238, 255);
+    font-size: 5rem;
+}
