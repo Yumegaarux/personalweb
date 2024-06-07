@@ -39,7 +39,7 @@ li{
     color: aliceblue;
 }
 
-a{
+ul a{
     padding: 24.5px 10px 24.5px 10px;
     text-decoration: none;
     color: aliceblue;
@@ -101,11 +101,32 @@ a:hover{
 #mainContainer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 2% 2%;
 }
 
 #mainH1{
     color: rgb(218, 238, 255);
     font-size: 5rem;
+}
+
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 40rem;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;   
+    animation-name: imgTransition;
+    animation-duration: .5s;
+}
+
+@keyframes imgTransition {
+    from {opacity: .5}
+    to {opacity: 1}
 }
