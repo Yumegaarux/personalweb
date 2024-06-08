@@ -108,6 +108,7 @@ a:hover{
 #mainH1{
     color: rgb(218, 238, 255);
     font-size: 5rem;
+    margin-bottom: 0.5em;
 }
 
 .slider{
@@ -125,6 +126,23 @@ img.displaySlide{
     animation-name: imgTransition;
     animation-duration: .5s;
 }
+
+#btn{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(206, 248, 255);
+    border-radius: 1em;
+    padding: 0.5em;
+    font-size: 2em;
+    z-index: 5;
+    margin: 0px 5em;
+    
+}
+
+.next{
+    float: right;
+}
+
 
 @keyframes imgTransition {
     from {opacity: .5}
