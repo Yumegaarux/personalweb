@@ -148,3 +148,32 @@ img.displaySlide{
     from {opacity: .5}
     to {opacity: 1}
 }
+
+@media screen and (max-width: 600px){
+    .middletxt{
+        font-size: 3em;
+    }
+
+    #profilepic{
+        height: 17em;
+        width: 13em;
+    }
+
+    .btmtxt{
+        font-size: 10px;
+        line-height: 2em;
+    }
+
+    #mainH1{
+        font-size: 3em;
+    }
+
+    .slider img{
+        width: 20rem;
+    }
+
+    #btn{
+        padding: 0.45em;
+        font-size: 1em;
+    }
+}
