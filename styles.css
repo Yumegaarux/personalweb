@@ -40,7 +40,7 @@ li{
 }
 
 ul a{
-    padding: 24.5px 10px 24.5px 10px;
+    padding: 24.5px 10px;
     text-decoration: none;
     color: aliceblue;
 }
@@ -48,7 +48,7 @@ ul a{
 #btnArt{
     background-color: aqua;
     color: black;
-    padding: 24.5px 20px 24.5px 20px;
+    padding: 24.5px 20px;
 }
 
 a:hover{
@@ -136,7 +136,6 @@ img.displaySlide{
     font-size: 2em;
     z-index: 5;
     margin: 0px 5em;
-    
 }
 
 .next{
@@ -149,20 +148,39 @@ img.displaySlide{
     to {opacity: 1}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 360px){
+    #container{
+        min-height: 70vh;
+    }
+    nav{
+        font-size: 0.8em;
+        padding: 15px 15px;
+    }
+    li{
+        font-size: 0.7em;
+        margin-left: 1px;
+    }
+    ul a{
+        padding: 5px 7px;
+        margin-right: 0px;
+    }
+    #btnArt{
+        padding: 2.35em 1.7em;
+    }
     .middletxt{
-        font-size: 3em;
+        font-size: 1.5em;
     }
 
     #profilepic{
-        height: 17em;
-        width: 13em;
+        height: 12em;
+        width: 9em;
+        margin-left: 2em;
     }
 
     .btmtxt{
-        font-size: 10px;
+        font-size: 0.5em;
         line-height: 2em;
-        
+        width: 13em;
     }
 
     #mainH1{
@@ -176,5 +194,6 @@ img.displaySlide{
     #btn{
         padding: 0.45em;
         font-size: 1em;
+        margin: 0px 3em;
     }
 }
