@@ -148,7 +148,7 @@ img.displaySlide{
     to {opacity: 1}
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 360px) and (max-width: 999px){
     #container{
         min-height: 70vh;
     }
