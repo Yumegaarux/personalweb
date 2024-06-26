@@ -48,12 +48,18 @@ ul a{
 #btnCrt{
     background-color: aqua;
     color: black;
-    padding: 21.25px 20px;
+    padding: 24.5px 20px;
+}
+
+#btnCrt:hover{
+    background-color: #000000;
+    color: aqua;
 }
 
 a:hover{
     background-color: aqua;
     color: black;
+    transition: ease-in-out 0.5s;
 }
 
 #logo{
@@ -182,7 +188,7 @@ img.displaySlide{
         padding: 5px 7px;
         margin-right: 0px;
     }
-    #btnArt{
+    #btnCrt{
         padding: 2.35em 1.7em;
     }
     .middletxt{
@@ -244,7 +250,7 @@ img.displaySlide{
         padding: 5px 7px;
         margin-right: 0px;
     }
-    #btnArt{
+    #btnCrt{
         padding: 2.35em 1.7em;
     }
     .middletxt{
@@ -294,7 +300,7 @@ img.displaySlide{
         padding: 5px 7px;
         margin-right: 0px;
     }
-    #btnArt{
+    #btnCrt{
         padding: 2.35em 1.7em;
     }
     .middletxt{
@@ -344,7 +350,7 @@ img.displaySlide{
         padding: 5px 7px;
         margin-right: 0px;
     }
-    #btnArt{
+    #btnCrt{
         padding: 2.35em 1.7em;
     }
     .middletxt{
@@ -395,7 +401,7 @@ img.displaySlide{
         padding: 5px 7px;
         margin-right: 0px;
     }
-    #btnArt{
+    #btnCrt{
         padding: 2.35em 1.7em;
     }
     .middletxt{
