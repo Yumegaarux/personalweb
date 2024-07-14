@@ -11,7 +11,6 @@ function initializeSlider(){
 }
 
 function showSlide(index){
-
     if(index >= slides.length){
         slideIndex = 0;
     }
@@ -24,7 +23,7 @@ function showSlide(index){
     slides[slideIndex].classList.add("displaySlide");
 }
 
-function prevSlide(){
+function prevSlide(){x
     slideIndex--;
     showSlide(slideIndex);
 }
