@@ -5,6 +5,7 @@
 
 html{
     font-family: Helvetica;
+    scroll-behavior: smooth;
 }
 
 #container{ 
@@ -96,6 +97,18 @@ a:hover{
     border-radius: 2em;
 }
 
+.page{
+    padding-top: 0.5em;
+    text-align: center;
+    color: rgb(31, 240, 255);
+    font-size: 5em;
+}
+
+.pagetext{
+    padding: 10px;
+    color: white;
+}
+
 /* ------- Main ------ */
 
 #main{
@@ -148,10 +161,10 @@ img.displaySlide{
     float: right;
 }
 
-/* --- Project 1 --- */
+/* --- CarRentalSys --- */
 
-#project1{
-    min-height: 100vh;
+#carRentalSys{
+    min-height: 200vh;
     max-width: 100%;
     background-position: center;
     background-size: cover;
@@ -160,21 +173,13 @@ img.displaySlide{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.8)),url(media/image6.png);
 }
 
-#project1Header{
-    padding-top: 0.5em;
-    text-align: center;
-    color: rgb(31, 240, 255);
-    font-size: 5em;
+#carRentalSysContainer{
+    display: flex;
 }
 
-@keyframes imgTransition {
-    from {opacity: .5}
-    to {opacity: 1}
-}
+/* ---  GameDev --- */
 
-/* --- Project 2 --- */
-
-#project2{
+#gameDev{
     min-height: 100vh;
     max-width: 100%;
     background-position: center;
@@ -182,13 +187,6 @@ img.displaySlide{
     position: relative;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.8)),url(media/catarmor3.png);;
-}
-
-#project2Header{
-    padding-top: 0.5em;
-    text-align: center;
-    color: rgb(255, 229, 31);
-    font-size: 5em;
 }
 
 /* --- Certificates --- */
@@ -199,11 +197,9 @@ img.displaySlide{
     background-color: #181929;
 }
 
-#certificateHeader{
-    padding-top: 0.5em;
-    text-align: center;
-    color: rgb(31, 240, 255);
-    font-size: 5em;
+#carRentalSysImg1{
+    width: 30%;
+    height: 30%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 449px){
@@ -259,27 +255,12 @@ img.displaySlide{
         font-size: 1em;
         margin: 0px 3em;
     }
-
-    /* ---- Project 1 ----*/
-
-    #project1Header{
+    
+    .page{
         padding-top: 0.75em;
         font-size: 2.15em;
     }
 
-    /* ---- Project 2 ----*/
-
-    #project2Header{
-        padding-top: 0.75em;
-        font-size: 2.15em;
-    }
-
-    /* ---- Certificates ----*/
-
-    #certificateHeader{
-        padding-top: 0.75em;
-        font-size: 2.15em;
-    }
 }
 
 @media screen and (min-width: 450px) and (max-width: 499px){
@@ -482,4 +463,9 @@ img.displaySlide{
         font-size: 1em;
         margin: 0px 3em;
     }
+}
+
+@keyframes imgTransition {
+    from {opacity: .5}
+    to {opacity: 1}
 }

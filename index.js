@@ -23,7 +23,7 @@ function showSlide(index){
     slides[slideIndex].classList.add("displaySlide");
 }
 
-function prevSlide(){x
+function prevSlide(){
     slideIndex--;
     showSlide(slideIndex);
 }
